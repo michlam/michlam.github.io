@@ -160,6 +160,11 @@ body {
 	src:url(Fonts/Roboto-Thin.ttf);
 }
 
+@font-face {
+	font-family: Roboto-Medium;
+	src:url(Fonts/Roboto-Medium.ttf);
+}
+
 .fadein2 {
 	 -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -200,11 +205,8 @@ body {
 
 .about {
     text-decoration: none; 
-    color: #00213E; 
+    color: black; 
     font-size: 12vw;
-
-	
-	
 
 }
 
@@ -221,6 +223,26 @@ body {
 .landing_name:hover {
 	text-shadow: 4px 4px #add6dc;
 }
+
+
+.landing_section1 {
+	background-color: #f0ede6;
+	width: 100%;
+	height: 50vw;
+	overflow: hidden;
+	float: none;
+
+}
+
+.landing_section2 {
+	background-color: #CFD0C3;
+	width: 100%;
+	height: 50vw;
+	overflow: hidden;
+	float: none;
+}
+
+
 
 
 
